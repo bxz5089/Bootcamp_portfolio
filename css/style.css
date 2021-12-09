@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
 
 body {
@@ -10,12 +11,44 @@ body {
     margin-left: 10px;
 }
 
-/* Style for the items inside the header */
+/* Style for the links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #074f7c; 
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.returnbutton {
+    background-color: #074f7c; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 25px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+/* Style for headers */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #94cbf8;
     color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
@@ -25,9 +58,9 @@ body {
 
 .header h1 .lastname {
     color: red;
+    font-size: 48px;
 }
 
-/* Style and moving the nav links to the top left side of the page */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,26 +79,17 @@ body {
     margin-left: 25px;
 }
 
-/* Style for the links */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .main-picture {
     height: 700px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     background-size: cover;
     background-position: center;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
-/* Style for the content articles */
+/* Style for the portfolio content */
 .content {
     width: 100%;
     display: inline-block;
@@ -77,60 +101,96 @@ p {
 #about-me{
     margin-bottom: 20px;
     padding: 50px;
-    height: 400px;
+    min-height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #379edf;
     color: #ffffff;
+    border-radius: 10px;
 }
 
 #work-experience{
     margin-bottom: 20px;
     padding: 50px;
-    height: 400px;
+    min-height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #286185;
     color: #ffffff;
+    border-radius: 10px;
 }
 
 #resume{
     margin-bottom: 20px;
     padding: 50px;
-    height: 400px;
+    min-height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #074f7c;
     color: #ffffff;
+    border-radius: 10px;
 }
 
 #about-me img, #work-experience img, #resume img{
     float: left;
     margin-right: 25px;
     border-radius: 10px;
-    max-height: 250px;
-    width:25%;
+    max-height: 300px;
+    width:20%;
 }
-
 
 #about-me h2, #work-experience h2, #resume h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+#about-me p, #work-experience p, #resume p {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+/* Style for the resume page */
+#resumepage{
+    margin-bottom: 20px;
+    padding: 50px;
+    min-height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #074f7c;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#resumepage img {
+    margin-right: 25px;
+    margin-left: 30px;
+    border-radius: 10px;
+    max-height: 50%;
+    max-width:45%;
+}
+
+#resumepage h2{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#resumepage p{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
 
 
 
-
-
-
-
-
-/* Style for the footer */
+/* Style for all footers */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: rgb(45, 56, 90);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .footer h2 {
     font-size: 20px;
+    color: #ffffff;
+
 }
