@@ -12,3 +12,6 @@ I will be applying skills I recently learned: flexbox, media queries, and CSS va
 
 **Note:** I don't have enough web applications to showcase at this point, so I will be using placeholder images and names. 
 
+
+My site is published at https://bxz5089.github.io/Bootcamp_portfolio_homework2/
+
