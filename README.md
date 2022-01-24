@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# My Portfolio
 
 ## My Task For This Homework
 
@@ -10,12 +10,13 @@ I need to add highlights to my strongest work as well as the thought processes b
 
 I will be applying skills I recently learned: flexbox, media queries, and CSS variables.
 
-**Note:** I don't have enough web applications to showcase at this point, so I will be using placeholder images and names. 
+## Showcase:
 
 ![alt text](images/ScreenShot1.png)
 
 ![alt text](images/ScreenShot2.png)
 
+## Deployment:
 
 My site is published at https://bxz5089.github.io/Bootcamp_portfolio_homework2/
 
