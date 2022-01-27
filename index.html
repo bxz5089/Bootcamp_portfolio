@@ -13,73 +13,75 @@
 </head>
 
 <body>
+    <div class="row">
+        <div class="col-sm justify-content-center text-center">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark navBarStyle">
+                <a class="navbar-brand" href="index.html">Bowen <span class="lastname">Zheng</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="aboutMe.html">About Me</a>
+                    <a class="nav-item nav-link" href="myProjects.html">My Projects</a>
+                    <a class="nav-item nav-link" href="myResume.html">My Resume</a>
+                    </div>
+                </div>
+            </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navBarStyle">
-        <a class="navbar-brand" href="index.html">Bowen <span class="lastname">Zheng</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Home</a>
-            <a class="nav-item nav-link" href="aboutMe.html">About Me</a>
-            <a class="nav-item nav-link" href="myProjects.html">My Projects</a>
-            <a class="nav-item nav-link" href="myResume.html">My Resume</a>
+            <!-- <header class="header">
+                <h1>Bowen <span class="lastname">Zheng</span></h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#about-me">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#coding-projects">My Coding Projects</a>
+                        </li>
+                        <li>
+                            <a href="#resume">My Resume</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header> -->
+
+            <div class="main-picture">
+                <img src="images/jon-asleeb-widepicture.jpg"/>
+                <h1>Hello, I'm Bowen Zheng, and welcome to my portfolio.</h1>
             </div>
-        </div>
-    </nav>
-
-    <!-- <header class="header">
-        <h1>Bowen <span class="lastname">Zheng</span></h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#coding-projects">My Coding Projects</a>
-                </li>
-                <li>
-                    <a href="#resume">My Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header> -->
-
-    <div class="main-picture">
-        <img src="images/jon-asleeb-widepicture.jpg"/>
-        <h1>Hello, I'm Bowen Zheng, and welcome to my portfolio.</h1>
+            <section class="content">
+                <article id="about-me">
+                    <img src="images/my-picture.jpg"/>
+                    <h2>About Me</h2>
+                    <p>
+                        Hello, my name is Bowen and I am currently working as a part time developer in a startup healthcare tech company, learning to code as I go. I am hoping to learn more about coding as I complete this online bootcamp. 
+                        The about me page is still underdevelopment.
+                    </p>
+                </article>
+                <article id="coding-projects">
+                    <a href="myProjects.html"><img src="images/ilya-pavlov-coding.jpg"/></a>
+                    <a href="myProjects.html"><h2>Coding Projects</h2></a>
+                    <p>
+                        Here are some of the coding projects that I have completed, which can be accessed by clicking the "Coding Projects" title.
+                    </p>
+                </article>
+                <article id="resume">
+                    <a href="myResume.html"><img src="images/heidi-kaden-philadelphia.jpg"/></a>
+                    <a href="myResume.html"><h2>Resume</h2></a>
+                    <p>
+                        My resume is located in the resume page, which can be accessed by clicking the "Resume" title.
+                    </p>
+                </article>
+            </section>
+            <footer class="footer">
+                <h2>Made by Bowen Z.</h2>
+                <h3>Contact Info</h3>
+                <p>Email: bxz5089@gmail.com</p>
+            </footer> 
+        </div> 
     </div>
-    <section class="content">
-        <article id="about-me">
-            <img src="images/my-picture.jpg"/>
-            <h2>About Me</h2>
-            <p>
-                Hello, my name is Bowen and I am currently working as a part time developer in a startup healthcare tech company, learning to code as I go. I am hoping to learn more about coding as I complete this online bootcamp. 
-                The about me page is still underdevelopment.
-            </p>
-        </article>
-        <article id="coding-projects">
-            <a href="myProjects.html"><img src="images/ilya-pavlov-coding.jpg"/></a>
-            <a href="myProjects.html"><h2>Coding Projects</h2></a>
-            <p>
-                Here are some of the coding projects that I have completed, which can be accessed by clicking the "Coding Projects" title.
-            </p>
-        </article>
-        <article id="resume">
-            <a href="myResume.html"><img src="images/heidi-kaden-philadelphia.jpg"/></a>
-            <a href="myResume.html"><h2>Resume</h2></a>
-            <p>
-                My resume is located in the resume page, which can be accessed by clicking the "Resume" title.
-            </p>
-        </article>
-    </section>
-    <footer class="footer">
-        <h2>Made by Bowen Z.</h2>
-        <h3>Contact Info</h3>
-        <p>Email: bxz5089@gmail.com</p>
-    </footer>  
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
