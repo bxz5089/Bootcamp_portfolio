@@ -1,5 +1,6 @@
 body {
     background-color: #efefef;
+    font-family: 'Courier Prime', monospace;
 }
 
 /* Style for the links */
@@ -115,6 +116,12 @@ a {
 #about-me p, #coding-projects p, #resume p {
     margin-bottom: 20px;
     font-size: 26px;
+}
+
+.portfolioBtn {
+    position: relative;
+    left: 300px;
+    top: 100px;
 }
 
 /* Style for the resume page */
