@@ -51,6 +51,10 @@ a {
 
 }
 
+.navbar-brand {
+    padding-left: 80px;
+}
+
 /* Style for the portfolio content */
 .content {
     width: 100%;
@@ -162,7 +166,8 @@ a {
 
 #coding-projects-page h2{
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 #coding-projects-page p{
@@ -174,8 +179,6 @@ a {
 .aboutMeCard {
     padding-top: 20px;
 }
-
-
 
 /* Style for all footers */
 .footer {
