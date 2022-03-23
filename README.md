@@ -1,27 +1,33 @@
 # My Portfolio
 
-## My Task For This Homework
+---
+## Description
 
-To update my web application portfolio.
+This is my portfolio. 
 
 The goal of the portfolio is to showcase my skills and talents to employers looking to fill a part-time or full-time position. 
 
-I need to add highlights to my strongest work as well as the thought processes behind it. 
+I highlighted to my strongest work as well as the thought processes behind it. 
 
-I will be applying skills I recently learned: flexbox, media queries, and CSS variables.
-
-## technologies:
+---
+## Technologies:
 - HTML
 - CSS
 - Bootstrap
 - Fontawesome 
 - Google Fonts
 
+---
 ## Showcase:
 
 ![alt text](images/ScreenShot1.png)
 
+---
 ## Deployment:
 
 My site is published at https://bxz5089.github.io/My_Portfolio/
 
+---
+## Questions
+
+If you have any questions or concerns please contact me at bxz5089@gmail.com or checkout my GitHub page at [bxz5089](https://github.com/bxz5089/).
