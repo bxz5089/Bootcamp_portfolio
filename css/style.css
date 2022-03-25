@@ -1,264 +1,272 @@
 body {
-    background: url(../images/background-12.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    font-family: 'Courier Prime', monospace;
+  background: url(../images/background-12.jpg);
+  background-repeat: repeat;
+  background-size: auto;
+  font-family: "Courier Prime", monospace;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 25px;
-    border-radius: 10px;
-    cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+img {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+
+.contentBox {
+  border-style: solid;
+  border-color: #394457;
+  border-width: 5px;
 }
 
 .navBarStyle {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .navBarStyle a {
-    font-family: 'Rubik', sans-serif;
-    font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
 }
 
 .lastname {
-    color: red;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
+  color: red;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
 }
 
-.main-picture{
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.main-picture {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .main-picture img {
-    height: 700px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    margin-right: 10px;
-
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
 }
 
 .main-picture h1 {
-    position: absolute;
-    bottom: 150px;
-    left: 100px;
-    color: #ffffff;
-    font-size: 50px;
-
-}
-
-.navbar-brand {
-    padding-left: 80px;
+  position: absolute;
+  bottom: 130px;
+  left: 100px;
+  color: #ffffff;
+  font-size: 50px;
 }
 
 /* Style for the portfolio content page */
 .content {
-    width: 100%;
-    display: inline-block;
-    margin-right: 10px;
+  width: 100%;
+  display: inline-block;
+  margin-right: 10px;
 }
 
-#about-me{
-    margin-bottom: 10px;
-    padding: 50px;
-    min-height: 400px;
-    background-color: #379edf;
-    color: #ffffff;
+#about-me {
+  margin-bottom: 10px;
+  padding: 50px;
+  min-height: 400px;
+  background-color: #379edf;
+  color: #ffffff;
 }
 
-#coding-projects{
-    margin-bottom: 10px;
-    padding: 50px;
-    min-height: 300px;
-    background-color: #286185;
-    color: #ffffff;
+#coding-projects {
+  margin-bottom: 10px;
+  padding: 50px;
+  min-height: 300px;
+  background-color: #286185;
+  color: #ffffff;
 }
 
-#resume{
-    margin-bottom: 10px;
-    padding: 50px;
-    min-height: 300px;
-    background-color: #074f7c;
-    color: #ffffff;
+#resume {
+  margin-bottom: 10px;
+  padding: 50px;
+  min-height: 300px;
+  background-color: #074f7c;
+  color: #ffffff;
 }
 
-
-#about-me img{
-    float: left;
-    margin-right: 25px;
-    border-radius: 10px;
-    width: 200px; 
-    height: 250px;
-    object-fit: cover; 
-    object-position: 50% 0;
-    
+#about-me img {
+  float: left;
+  margin-right: 25px;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 50% 0;
 }
 
-#coding-projects img, #resume img{
-    float: left;
-    margin-right: 25px;
-    border-radius: 10px;
-    max-height: 300px;
-    width: 200px; 
-    object-fit: cover; 
-    
+#coding-projects img,
+#resume img {
+  float: left;
+  margin-right: 25px;
+  border-radius: 10px;
+  max-height: 300px;
+  width: 200px;
+  object-fit: cover;
 }
 
-#about-me h2, #coding-projects h2, #resume h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+#about-me h2,
+#coding-projects h2,
+#resume h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
-#about-me p, #coding-projects p, #resume p {
-    margin-bottom: 20px;
-    font-size: 26px;
+#about-me p,
+#coding-projects p,
+#resume p {
+  margin-bottom: 20px;
+  font-size: 26px;
 }
 
-#about-me button, #coding-projects button, #resume button {
-    float: right;
+#about-me button,
+#coding-projects button,
+#resume button {
+  float: right;
 }
 
 .portfolioBtn {
-    background-color: #53ceff;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #379edf;
-    font-size: 20px;
-    color: #ffffff;
-    padding: 0px 10px;
-    width: 200px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin: 5px 5px;
-    box-shadow: 2px 3px 3px #232b54;
+  background-color: #53ceff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #379edf;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px 10px;
+  width: 200px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 5px 5px;
+  box-shadow: 2px 3px 3px #232b54;
 }
 
 /* Style for the resume page */
-#resumepage{
-    margin-bottom: 10px;
-    padding: 50px;
-    min-height: 400px;
-    background-color: #074f7c;
-    color: #ffffff;
+#resumepage {
+  margin-bottom: 10px;
+  padding: 50px;
+  min-height: 400px;
+  background-color: #074f7c;
+  color: #ffffff;
 }
 
 #resumepage img {
-    margin-right: 25px;
-    margin-left: 30px;
-    margin-top: 10px;
-    border-radius: 10px;
-    max-height: 50%;
-    max-width:45%;
+  margin-right: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-height: 50%;
+  max-width: 45%;
 }
 
-#resumepage h2{
-    margin-left: 30px;
-    font-size: 30px;
+#resumepage h2 {
+  margin-left: 30px;
+  font-size: 30px;
 }
 
-#resumepage p{
-    margin-left: 30px;
-    margin-bottom: 20px;
-    font-size: 26px;
+#resumepage p {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 26px;
 }
 
-.downloadBtn{
-    position: relative;
-    left: 30px;
-    margin: 10px 0px 20px 0px;
+.downloadBtn {
+  position: relative;
+  left: 30px;
+  margin: 10px 0px 20px 0px;
 }
 
 /* Style for the project page */
 
-#coding-projects-page{
-    margin-bottom: 10px;
-    padding: 50px;
-    min-height: 400px;
-    background-color: #074f7c;
-    color: #ffffff;
+#coding-projects-page {
+  margin-bottom: 10px;
+  padding: 50px;
+  min-height: 400px;
+  background-color: #074f7c;
+  color: #ffffff;
 }
 
 #coding-projects-page img {
-    margin: 25px;
-    border-radius: 10px;
-    max-width: 500px;
-    object-fit: fill;
+  margin: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  object-fit: fill;
 }
 
-#coding-projects-page h2{
-    margin-left: 30px;
-    font-size: 40px;
-    font-weight: 600;
+#coding-projects-page h2 {
+  margin-left: 30px;
+  font-size: 40px;
+  font-weight: 600;
 }
 
-#coding-projects-page p{
-    margin-left: 30px;
-    margin-bottom: 20px;
-    font-size: 26px;
+#coding-projects-page p {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 26px;
 }
 
-.projectBtn{
-    position: relative;
-    left: 30px;
-    margin: 20px 0px;
+.projectBtn {
+  position: relative;
+  left: 30px;
+  margin: 20px 0px;
 }
 
 /* style for about me page */
 
 .aboutMeCard {
-    padding-top: 20px;
-    margin: 10px 0px;
-    background-color: #ffffff;
-    color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #074f7c;
+  padding-top: 20px;
+  margin: 10px 0px;
+  background-color: #ffffff;
+  color: #ffffff;
 }
 
 .aboutMeImg {
-    height: 500px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    box-shadow: 4px 6px #286185;
+  height: 500px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 6px #286185;
 }
 
 .aboutMeContent {
-    padding: 30px;
-    background-color: #074f7c;
-    height: 200px;
+  padding: 30px;
+  background-color: #074f7c;
+  height: 200px;
 }
 
 .aboutMeContent h5 {
-    font-size: 40px;
-    font-weight: 600;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .aboutMeContent button {
-    float: right;
+  float: right;
 }
-
 
 /* Style for all footers */
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: rgb(45, 56, 90);
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(45, 56, 90);
 }
 
-.footer h2, .footer h3, .footer p {
-    font-size: 20px;
-    color: #ffffff;
-
+.footer h2,
+.footer h3,
+.footer p {
+  font-size: 20px;
+  color: #ffffff;
 }
