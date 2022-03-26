@@ -25,6 +25,10 @@ img {
   border-width: 5px;
 }
 
+.navbar-brand {
+  padding-left: 20px;
+}
+
 .navBarStyle {
   margin-bottom: 10px;
 }
@@ -48,7 +52,7 @@ img {
 }
 
 .main-picture img {
-  height: 700px;
+  height: 600px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -60,7 +64,7 @@ img {
   bottom: 130px;
   left: 100px;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 3.5vw;
 }
 
 /* Style for the portfolio content page */
@@ -118,14 +122,14 @@ img {
 #coding-projects h2,
 #resume h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 2.5vw;
 }
 
 #about-me p,
 #coding-projects p,
 #resume p {
   margin-bottom: 20px;
-  font-size: 26px;
+  font-size: 1.3vw;
 }
 
 #about-me button,
@@ -139,7 +143,7 @@ img {
   border-radius: 10px;
   border-style: solid;
   border-color: #379edf;
-  font-size: 20px;
+  font-size: 1.5vw;
   color: #ffffff;
   padding: 0px 10px;
   width: 200px;
@@ -169,19 +173,25 @@ img {
 
 #resumepage h2 {
   margin-left: 30px;
-  font-size: 30px;
+  font-size: 2.5vw;
 }
 
 #resumepage p {
   margin-left: 30px;
   margin-bottom: 20px;
-  font-size: 26px;
+  font-size: 1.3vw;
 }
 
 .downloadBtn {
   position: relative;
   left: 30px;
   margin: 10px 0px 20px 0px;
+}
+
+.resumeImg img {
+  max-width: 100%;
+  height: auto;
+  object-fit: fill;
 }
 
 /* Style for the project page */
@@ -197,20 +207,21 @@ img {
 #coding-projects-page img {
   margin: 25px;
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 100%;
+  height: auto;
   object-fit: fill;
 }
 
 #coding-projects-page h2 {
   margin-left: 30px;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: 600;
 }
 
 #coding-projects-page p {
   margin-left: 30px;
   margin-bottom: 20px;
-  font-size: 26px;
+  font-size: 1.3vw;
 }
 
 .projectBtn {
@@ -222,15 +233,14 @@ img {
 /* style for about me page */
 
 .aboutMeCard {
-  padding-top: 20px;
   margin: 10px 0px;
   background-color: #ffffff;
   color: #ffffff;
 }
 
 .aboutMeImg {
-  height: 500px;
-  width: auto;
+  max-width: 100%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -246,7 +256,7 @@ img {
 }
 
 .aboutMeContent h5 {
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: 600;
 }
 
@@ -267,6 +277,6 @@ img {
 .footer h2,
 .footer h3,
 .footer p {
-  font-size: 20px;
+  font-size: 2vw;
   color: #ffffff;
 }
